@@ -13,3 +13,8 @@ Dashboard screenshot:
 ![alt text](https://github.com/RicardoFreireRfs/GRACE_dash/blob/main/visual.png)
 
 
+More details about the GRACE-FO data:
+https://disc.gsfc.nasa.gov/datasets/GRACEDADM_CLSM0125US_7D_4.0/summary
+
+Reference:
+Beaudoing, Hiroko, M. Rodell, A. Getirana, and B. Li, NASA/GSFC/HSL (2021), Groundwater and Soil Moisture Conditions from GRACE and GRACE-FO Data Assimilation L4 7-days 0.125 x 0.125 degree U.S. V4.0, Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed: 22/12/2023, 10.5067/UH653SEZR9VQ
