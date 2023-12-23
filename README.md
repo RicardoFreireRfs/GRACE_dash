@@ -8,6 +8,13 @@ v3.0). The Sustainable Development Goal (SDG) to advance is Climate Action. The 
 Available at https://rsilva.pythonanywhere.com/
 Until Thursday 21 March 2024
 
+Runing in local machine instructions:
+1. Download the entire folder ' Python_Code'
+2. Install the packages available on the requirements.txt file
+3. Run the GRACE_dash.py
+
+The app.py file is a modified version of the GRACE_dash.py to run online.
+
 Dashboard screenshot:
 
 ![alt text](https://github.com/RicardoFreireRfs/GRACE_dash/blob/main/visual.png)
