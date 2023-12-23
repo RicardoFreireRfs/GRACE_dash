@@ -8,14 +8,14 @@ v3.0). The Sustainable Development Goal (SDG) to advance is Climate Action. The 
 Available at https://rsilva.pythonanywhere.com/
 Until Thursday 21 March 2024
 
-Running in local machine instructions:
+**Running in local machine instructions:**
 1. Download the entire folder ' Python_Code'
 2. Install the packages available on the requirements.txt file
 3. Run the GRACE_dash.py
 
 The app.py file is a modified version of the GRACE_dash.py to run online.
 
-Dashboard screenshot:
+**Dashboard screenshot:**
 
 ![alt text](https://github.com/RicardoFreireRfs/GRACE_dash/blob/main/visual.png)
 
@@ -24,6 +24,7 @@ More details about the GRACE-FO data:
 https://disc.gsfc.nasa.gov/datasets/GRACEDADM_CLSM0125US_7D_4.0/summary
 
 **References:**
+
 Beaudoing, Hiroko, M. Rodell, A. Getirana, and B. Li, NASA/GSFC/HSL (2021), Groundwater and Soil Moisture Conditions from GRACE and GRACE-FO Data Assimilation L4 7-days 0.125 x 0.125 degree U.S. V4.0, Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed: 22/12/2023, 10.5067/UH653SEZR9VQ
 
 Houborg, R., M. Rodell, B. Li, R. Reichle, and B. Zaitchik, 2012: Drought indicators based on model assimilated GRACE terrestrial water storage observations, Wat. Resour. Res., 48, W07525, doi:10.1029/2011WR011291
