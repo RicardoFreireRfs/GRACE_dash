@@ -5,11 +5,12 @@ import plotly.graph_objs as go
 import numpy as np
 import rasterio
 
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
-
+# dataframes using Pandas to define the years and input data definition
 years = np.arange(2004,2023)
 year_df = pd.DataFrame(years, columns=['Year'])
 input_def = {'Groundwater','Moisture'}
@@ -44,7 +45,7 @@ app.layout = html.Div([
                     )
         ],
             style={'width': '49%', 'display': 'inline-block'}),
-
+# Input data selection - right side
         html.Div([
             html.Label("Select an input data:"),
             dcc.Dropdown(
@@ -58,6 +59,7 @@ app.layout = html.Div([
         'padding': '5px 1px'
     }),
 
+# World map /Year bar - Left side
     html.Div([
         dcc.Graph(id='crossfilter_tif_image'),
         html.Label("Year:"),
@@ -69,7 +71,7 @@ app.layout = html.Div([
             value=year_df['Year'].max(),
             marks={str(year): str(year) for year in year_df['Year'].unique()}
         ),
-
+# World map / Year bar - Right side
     ], style={'width': '49%', 'display': 'inline-block', 'padding': '0 20'}),
     html.Div([
         dcc.Graph(id='crossfilter_tif_image2'),
@@ -154,6 +156,7 @@ def update_graph(input_data,
     fig2.update_xaxes(visible=False)
     fig2.update_yaxes(visible=False)
 
+# Plot time-series data
     df_ts = pd.read_csv('Global_groundwater_2004_2022.csv')
     df2_ts = pd.read_csv('Global_Soil_noisture_2004_2022.csv')
 
