@@ -15,8 +15,8 @@ Until Thursday 21 March 2024
 
 The app.py file is a modified version of the GRACE_dash.py to run online.
 
-[<img src="https://img.youtube.com/vi/0sGfk1FxVGc/maxresdefault.jpg" width="50%">](https://youtu.be/0sGfk1FxVGc)
-
+**Video Demonstration:**
+https://youtu.be/0sGfk1FxVGc
 
 **Dashboard screenshot:**
 
